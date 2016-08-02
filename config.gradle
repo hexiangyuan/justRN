@@ -1,0 +1,11 @@
+ext {
+    supprotVersion = "23.0.1"
+
+    android = [compileSdkVersion: 23,
+               buildToolsVersion: "23.0.1",
+               applicationId    : "com.justsee.justsee",
+               minSdkVersion    : 16,
+               targetSdkVersion : 23,
+               versionCode      : 100,
+               versionName      : "1.0.0"]
+}
