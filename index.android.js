@@ -6,12 +6,12 @@ import {
     AppRegistry,
 } from 'react-native';
 
-import List from './list';
+import HomePae from './homePage';
 
 class JustSee extends React.Component {
     render() {
-        let defaultName = 'List';
-        let defaultComponent = List;
+        let defaultName = 'HomePae';
+        let defaultComponent = HomePae;
         return ( <Navigator initialRoute = {
                 {
                     name: defaultName,
